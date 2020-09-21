@@ -18,19 +18,20 @@ body, .main {
 }
 .calculator .value {
     grid-column: span 4;
-    height: 100px;
+    height: 200px;
     text-align: right;
     border: none;
     outline: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 30px;
     background-color: #3A1C33;
     color: #fff;
 }
 .calculator span {
     display: grid;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
     color: #000;
     background: #F8DCF4;
     place-items: center;
@@ -43,9 +44,9 @@ body, .main {
 }
 .calculator span.clear{
     grid-column: span 2;
-    width: 120px;
+    width: 200px;
 }
 .calculator span.equal{
     grid-column: span 2;
-    width: 120px;
+    width: 200px;
 }
